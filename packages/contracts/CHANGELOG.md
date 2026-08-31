@@ -1,4 +1,4 @@
-# @coinslot/contracts
+# @aftercard/coinslot-contracts
 
 ## 0.1.0
 

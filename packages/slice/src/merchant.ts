@@ -31,8 +31,8 @@ import type {
   OrderCallResponse,
   OrderEvent,
   WorkerProblem,
-} from "@coinslot/sdk";
-import { createClient } from "@coinslot/sdk";
+} from "@aftercard/coinslot";
+import { createClient } from "@aftercard/coinslot";
 import {
   CATALOG,
   EUROPE_ESIM,

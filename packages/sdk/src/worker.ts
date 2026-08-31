@@ -62,7 +62,7 @@ import {
   QuoteResponseSchema,
   type WorkerEnvelope,
   type WorkerEnvelopeKind,
-} from "@coinslot/contracts";
+} from "@aftercard/coinslot-contracts";
 import { retryDelayMs } from "./backoff.js";
 import { contractVersion, speaksContract } from "./contract.js";
 import { describeProblems, problemsOf } from "./schema.js";

@@ -1,6 +1,6 @@
 import { createServer } from "node:http";
 import type { AddressInfo } from "node:net";
-import type { Card, Order } from "@coinslot/contracts";
+import type { Card, Order } from "@aftercard/coinslot-contracts";
 import { afterEach, describe, expect, it } from "vitest";
 import {
   ANSWER_NOT_UNDERSTOOD,

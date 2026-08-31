@@ -14,7 +14,7 @@
  * receive, not the shape of a query.
  */
 
-import type { Card, MerchantCardList, Receipt } from "@coinslot/contracts";
+import type { Card, MerchantCardList, Receipt } from "@aftercard/coinslot-contracts";
 import { afterEach, describe, expect, it } from "vitest";
 import {
   buyOverHttp,

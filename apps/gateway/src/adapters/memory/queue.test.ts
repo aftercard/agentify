@@ -1,4 +1,4 @@
-import type { WorkerEnvelope } from "@coinslot/contracts";
+import type { WorkerEnvelope } from "@aftercard/coinslot-contracts";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import type { Reminder } from "../../ports/queue.js";
 import { MemoryQueue } from "./queue.js";

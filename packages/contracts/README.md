@@ -1,12 +1,12 @@
-# `@coinslot/contracts`
+# `@aftercard/coinslot-contracts`
 
 The public Coinslot schemas for cards, orders, prices, receipts and gateway
-answers. `@coinslot/sdk` installs this package as its only direct runtime
+answers. `@aftercard/coinslot` installs this package as its only direct runtime
 dependency; applications may also import the schemas when they need to validate
 the same documents at another boundary.
 
 ```sh
-npm install @coinslot/contracts
+npm install @aftercard/coinslot-contracts
 ```
 
 Node.js 24 or newer is required. The schemas use Zod, which is the package's

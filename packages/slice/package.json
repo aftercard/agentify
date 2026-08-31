@@ -12,10 +12,10 @@
     "buy": "tsx src/buy.ts"
   },
   "devDependencies": {
-    "@coinslot/contracts": "workspace:*",
+    "@aftercard/coinslot-contracts": "workspace:*",
     "@coinslot/core": "workspace:*",
     "@coinslot/gateway": "workspace:*",
-    "@coinslot/sdk": "workspace:*",
+    "@aftercard/coinslot": "workspace:*",
     "@x402/core": "2.23.0",
     "@x402/evm": "2.23.0",
     "@x402/fetch": "2.23.0",

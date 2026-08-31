@@ -25,8 +25,8 @@
  */
 
 import { createHash } from "node:crypto";
-import type { BazaarDeclaration, Card } from "@coinslot/contracts";
-import { API_ROUTES, bazaarDeclarationOf, expandPath } from "@coinslot/contracts";
+import type { BazaarDeclaration, Card } from "@aftercard/coinslot-contracts";
+import { API_ROUTES, bazaarDeclarationOf, expandPath } from "@aftercard/coinslot-contracts";
 import {
   decodePaymentSignatureHeader,
   encodePaymentRequiredHeader,

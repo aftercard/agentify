@@ -1,4 +1,4 @@
-# @coinslot/sdk
+# @aftercard/coinslot
 
 ## 0.1.0
 
@@ -9,4 +9,4 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @coinslot/contracts@0.1.0
+  - @aftercard/coinslot-contracts@0.1.0
