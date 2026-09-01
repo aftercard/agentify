@@ -22,16 +22,16 @@
  * this check makes no claim about any of that.
  */
 
-import { CardSchema, type PublishError } from "@aftercard/coinslot-contracts";
+import { CardSchema, type Problem } from "@aftercard/coinslot-contracts";
 import { problemsOf } from "./schema.js";
 
 export interface CardCheck {
   /**
-   * Everything wrong with the card that one pass could see, in the shape the
-   * publish call answers in. Empty means the card is complete as far as the
-   * contract can tell.
+   * Everything wrong with the card that one pass could see, under the same word
+   * and in the same shape the publish call answers in. Empty means the card is
+   * complete as far as the contract can tell.
    */
-  readonly problems: readonly PublishError[];
+  readonly problems: readonly Problem[];
 }
 
 export const checkCard = (card: unknown): CardCheck => {
