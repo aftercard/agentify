@@ -1,5 +1,12 @@
 # @aftercard/coinslot
 
+## 0.2.3
+
+### Patch Changes
+
+- Updated dependencies [99c959c]
+  - @aftercard/coinslot-contracts@0.3.1
+
 ## 0.2.2
 
 ### Patch Changes
