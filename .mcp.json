@@ -2,7 +2,7 @@
   "mcpServers": {
     "plan": {
       "type": "http",
-      "url": "https://plan.aftercard.ai/mcp",
+      "url": "https://api-plan.aftercard.ai/mcp",
       "headers": {
         "Authorization": "Bearer ${PLAN_MCP_TOKEN}"
       }
