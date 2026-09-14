@@ -26,7 +26,7 @@
  * somebody else's cabinet.
  */
 
-import { isOpen, type MerchantSelling } from "@coinslot/core";
+import { isOpen, type MerchantSelling } from "@agentify/commerce-core";
 import type { Card, Receipt, WorkerEnvelope } from "@aftercard/coinslot-contracts";
 import type { Clock, Ids } from "../../ports/clock.js";
 import type {
