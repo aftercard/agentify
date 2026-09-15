@@ -105,7 +105,7 @@ describe("key prefixes", () => {
 
 describe("SITES", () => {
   it("names the two sites a key can be told to go to", () => {
-    expect(SITES.test).toBe("test.coinslot.aftercard.ai");
+    expect(SITES.test).toBe("test.agentify.ad");
     expect(SITES.live).toBe("app.agentify.ad");
   });
 });
