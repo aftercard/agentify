@@ -14,7 +14,7 @@ umask 077
 readonly release_program="${1:-}"
 readonly state_file="${2:-}"
 readonly marker_file="${3:-}"
-readonly repository='aftercard/coinslot'
+readonly repository='aftercard/agentify'
 readonly git_url="https://github.com/${repository}.git"
 readonly main_ref='refs/heads/main'
 
