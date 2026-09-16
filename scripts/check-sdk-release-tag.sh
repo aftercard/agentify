@@ -33,7 +33,7 @@ for manifest in "$repo"/{packages,apps}/*/package.json; do
 done
 
 IFS=$'\n' read -r -d '' -a publishable < <(printf '%s\n' "${publishable[@]}" | sort && printf '\0')
-expected_publishable=("@aftercard/coinslot" "@aftercard/coinslot-contracts")
+expected_publishable=("@aftercard/agentify" "@aftercard/agentify-contracts")
 if [[ "${publishable[*]}" != "${expected_publishable[*]}" ]]; then
   printf 'SDK release may publish only: %s\nFound: %s\n' \
     "${expected_publishable[*]}" "${publishable[*]:-(none)}" >&2

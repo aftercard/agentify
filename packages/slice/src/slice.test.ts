@@ -19,13 +19,13 @@
  */
 
 import { ScriptedFacilitator } from "@agentify/commerce-gateway";
-import { WORKER_PROBLEM_KINDS } from "@aftercard/coinslot";
+import { WORKER_PROBLEM_KINDS } from "@aftercard/agentify";
 import {
   AgentOrderStatusSchema,
   type Card,
   deliveryCheckFor,
   ReceiptSchema,
-} from "@aftercard/coinslot-contracts";
+} from "@aftercard/agentify-contracts";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
 import { makeBuyer } from "./buyer.js";
 import { EUROPE_ESIM, RENTED_NUMBER } from "./cards.js";

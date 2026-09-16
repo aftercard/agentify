@@ -46,7 +46,7 @@ import {
   type SellerName,
   type WorkerEnvelope,
   type WorkerPollResponse,
-} from "@aftercard/coinslot-contracts";
+} from "@aftercard/agentify-contracts";
 import { asTimestamp } from "../ports/clock.js";
 import type { Reminder } from "../ports/queue.js";
 import type { KeyPurpose, StoredCard, StoredKey, StoredOrder } from "../ports/store.js";

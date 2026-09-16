@@ -13,7 +13,7 @@ import {
   ORDER_STATUSES,
   ReceiptOutcomeSchema,
   SELLING_STATES,
-} from "@aftercard/coinslot-contracts";
+} from "@aftercard/agentify-contracts";
 import { describe, expect, it } from "vitest";
 import {
   FULFILLMENT_WORDS,

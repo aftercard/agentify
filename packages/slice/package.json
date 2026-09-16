@@ -13,10 +13,10 @@
     "stand": "node --env-file-if-exists=../../.env.stand --import tsx src/stand.ts"
   },
   "devDependencies": {
-    "@aftercard/coinslot-contracts": "workspace:*",
+    "@aftercard/agentify-contracts": "workspace:*",
     "@agentify/commerce-core": "workspace:*",
     "@agentify/commerce-gateway": "workspace:*",
-    "@aftercard/coinslot": "workspace:*",
+    "@aftercard/agentify": "workspace:*",
     "@x402/core": "2.23.0",
     "@x402/evm": "2.23.0",
     "@x402/fetch": "2.23.0",

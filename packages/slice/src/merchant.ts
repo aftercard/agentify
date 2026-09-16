@@ -29,14 +29,14 @@
  */
 
 import type {
-  CoinslotClient,
+  AgentifyClient,
   Delivery,
   LiveOrder,
   OrderCallResponse,
   OrderEvent,
   WorkerProblem,
-} from "@aftercard/coinslot";
-import { createClient } from "@aftercard/coinslot";
+} from "@aftercard/agentify";
+import { createClient } from "@aftercard/agentify";
 import {
   CATALOG,
   EUROPE_ESIM,
@@ -48,7 +48,7 @@ import {
 const asTimestamp = (at: number): string => new Date(at).toISOString();
 
 export interface MockMerchant {
-  readonly client: CoinslotClient;
+  readonly client: AgentifyClient;
   /** Order events the SDK handed to the event handler, in the order they arrived. */
   readonly events: readonly OrderEvent[];
   /** Anything the SDK reported it could not get through. Empty is the win. */

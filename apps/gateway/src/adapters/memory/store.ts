@@ -27,7 +27,7 @@
  */
 
 import { isOpen, type MerchantSelling } from "@agentify/commerce-core";
-import type { Card, Receipt, WorkerEnvelope } from "@aftercard/coinslot-contracts";
+import type { Card, Receipt, WorkerEnvelope } from "@aftercard/agentify-contracts";
 import type { Clock, Ids } from "../../ports/clock.js";
 import type {
   CatalogEntry,

@@ -24,7 +24,7 @@ import {
   MERCHANT_KEY_HEADER,
   merchantKeyHeaderValue,
   type RouteDefinition,
-} from "@aftercard/coinslot-contracts";
+} from "@aftercard/agentify-contracts";
 
 export interface GatewayAnswer {
   readonly status: number;

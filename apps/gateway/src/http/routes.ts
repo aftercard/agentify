@@ -26,8 +26,8 @@ import type {
   RouteName,
   SellerNameRequest,
   WorkerPollRequest,
-} from "@aftercard/coinslot-contracts";
-import { PurchaseRequestSchema } from "@aftercard/coinslot-contracts";
+} from "@aftercard/agentify-contracts";
+import { PurchaseRequestSchema } from "@aftercard/agentify-contracts";
 import type { Gateway, PurchaseAttempt } from "../app/gateway.js";
 import { agentOrderStatusOf, orderDocumentOf } from "../app/runner.js";
 import type { KeyPurpose } from "../ports/store.js";

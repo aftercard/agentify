@@ -15,7 +15,7 @@
  * would send.
  */
 
-import type { WorkerEnvelope } from "@aftercard/coinslot-contracts";
+import type { WorkerEnvelope } from "@aftercard/agentify-contracts";
 import { contractVersion } from "../contract.js";
 import type { GatewayAnswer } from "./fake-gateway.js";
 

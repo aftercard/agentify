@@ -30,7 +30,7 @@
  * one".
  */
 
-import type { HandlerAnswer, Order } from "@aftercard/coinslot-contracts";
+import type { HandlerAnswer, Order } from "@aftercard/agentify-contracts";
 import type { GatewayClient } from "./gateway.js";
 import type { Identity } from "./identity.js";
 import {

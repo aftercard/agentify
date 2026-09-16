@@ -1,10 +1,10 @@
-import type { Card } from "@aftercard/coinslot-contracts";
+import type { Card } from "@aftercard/agentify-contracts";
 import {
   CARD_REJECTED,
   CatalogPageSchema,
   PublishResultSchema,
   WorkerPollResponseSchema,
-} from "@aftercard/coinslot-contracts";
+} from "@aftercard/agentify-contracts";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { asTimestamp } from "../ports/clock.js";
 import {

@@ -1,5 +1,5 @@
 ---
-"@aftercard/coinslot-contracts": patch
+"@aftercard/agentify-contracts": patch
 ---
 
 Say whose ceiling a description is held to, and how long the text actually is.

@@ -65,7 +65,7 @@ import type {
   Receipt,
   SalePrice,
   WorkerEnvelope,
-} from "@aftercard/coinslot-contracts";
+} from "@aftercard/agentify-contracts";
 import { asTimestamp } from "../ports/clock.js";
 import type { Reminder } from "../ports/queue.js";
 import type {

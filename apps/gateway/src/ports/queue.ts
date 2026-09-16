@@ -37,7 +37,7 @@
  */
 
 import type { DeadlineKind } from "@agentify/commerce-core";
-import type { WorkerEnvelope } from "@aftercard/coinslot-contracts";
+import type { WorkerEnvelope } from "@aftercard/agentify-contracts";
 
 /** One delivery of one envelope, with the handle that finishes it. */
 export interface DrawnEnvelope {

@@ -11,7 +11,7 @@
 
 import { createServer, type Server } from "node:http";
 import type { AddressInfo } from "node:net";
-import { CONTRACT_VERSION, type WorkerEnvelope } from "@aftercard/coinslot-contracts";
+import { CONTRACT_VERSION, type WorkerEnvelope } from "@aftercard/agentify-contracts";
 import { afterEach, describe, expect, it } from "vitest";
 import { type Entry, makeFeed } from "./stand-log.js";
 import { makeStandMerchant } from "./stand-merchant.js";

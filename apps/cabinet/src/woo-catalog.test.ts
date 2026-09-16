@@ -11,7 +11,7 @@
  * thousand.
  */
 
-import { CardSchema } from "@aftercard/coinslot-contracts";
+import { CardSchema } from "@aftercard/agentify-contracts";
 import { describe, expect, it } from "vitest";
 import {
   cardsFromTheShop,

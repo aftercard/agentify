@@ -28,7 +28,7 @@
  */
 
 import type { Order } from "@agentify/commerce-core";
-import type { Card } from "@aftercard/coinslot-contracts";
+import type { Card } from "@aftercard/agentify-contracts";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { type Harness, harness, workOnce } from "../testing/harness.js";
 import { SWEEP_EFFECTS, type Swept } from "./runner.js";

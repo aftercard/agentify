@@ -18,7 +18,7 @@
  * separately.
  */
 
-import { WORKER_PROBLEM_KINDS, type WorkerProblem } from "@aftercard/coinslot";
+import { WORKER_PROBLEM_KINDS, type WorkerProblem } from "@aftercard/agentify";
 import { describe, expect, it } from "vitest";
 import {
   DOUBT_MS,

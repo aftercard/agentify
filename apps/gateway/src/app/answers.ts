@@ -22,7 +22,7 @@
  */
 
 import type { MerchantAnswer, MerchantAnswerError } from "@agentify/commerce-core";
-import type { OrderCallResponse } from "@aftercard/coinslot-contracts";
+import type { OrderCallResponse } from "@aftercard/agentify-contracts";
 
 const WHY: Record<MerchantAnswerError, string> = {
   refund_already_settled:

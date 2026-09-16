@@ -40,7 +40,7 @@ import {
   type MerchantKey,
   type MerchantKeyList,
   type RegisteredMerchant,
-} from "@aftercard/coinslot-contracts";
+} from "@aftercard/agentify-contracts";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { type CabinetConfig, loadConfig } from "./config.js";
 import { type Answer, type GatewayClient, gatewayFor, type Registrar } from "./gateway.js";

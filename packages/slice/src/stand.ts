@@ -35,7 +35,7 @@ import {
   ReceiptListSchema,
   type Refusal,
   type SellingState,
-} from "@aftercard/coinslot-contracts";
+} from "@aftercard/agentify-contracts";
 import type { PaymentRequired } from "@x402/core/types";
 import { CATALOG } from "./cards.js";
 import {

@@ -1,4 +1,4 @@
-import { ProblemSchema } from "@aftercard/coinslot-contracts";
+import { ProblemSchema } from "@aftercard/agentify-contracts";
 import { describe, expect, it } from "vitest";
 import { checkCard } from "./check-card.js";
 

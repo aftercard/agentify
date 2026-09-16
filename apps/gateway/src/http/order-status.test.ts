@@ -19,7 +19,7 @@
  * merchant's key for the product and the buyer's own parameters back.
  */
 
-import type { AgentOrderStatus, Card, Delivery } from "@aftercard/coinslot-contracts";
+import type { AgentOrderStatus, Card, Delivery } from "@aftercard/agentify-contracts";
 import { afterEach, describe, expect, it } from "vitest";
 import {
   buyOverHttp,

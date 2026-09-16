@@ -6,7 +6,7 @@
  * are acceptable at the boundary.
  */
 
-import type { FieldSpec, ParamSpec } from "@aftercard/coinslot-contracts";
+import type { FieldSpec, ParamSpec } from "@aftercard/agentify-contracts";
 
 const filledValueFor = (name: string, field: FieldSpec): unknown => {
   switch (field.type) {

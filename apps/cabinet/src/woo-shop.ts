@@ -15,7 +15,7 @@
  * whether an order is refused for good or handed back to be delivered again.
  */
 
-import type { Money } from "@aftercard/coinslot-contracts";
+import type { Money } from "@aftercard/agentify-contracts";
 import { type StoreProduct, StoreProductsSchema } from "./woo-catalog.js";
 
 /** How long we wait on a merchant's shop for one call. */

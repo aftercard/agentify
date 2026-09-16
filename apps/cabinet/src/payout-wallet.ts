@@ -40,7 +40,7 @@
  * on trust that two spellings are one address.
  */
 
-import { EvmAddressSchema } from "@aftercard/coinslot-contracts";
+import { EvmAddressSchema } from "@aftercard/agentify-contracts";
 
 import { escaped } from "./html.js";
 import type { Viewer } from "./screens.js";

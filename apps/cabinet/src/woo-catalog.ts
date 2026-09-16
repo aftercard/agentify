@@ -28,7 +28,7 @@
  * published as something approximate.
  */
 
-import { type CardInput, CurrencyCodeSchema, IdentifierSchema } from "@aftercard/coinslot-contracts";
+import { type CardInput, CurrencyCodeSchema, IdentifierSchema } from "@aftercard/agentify-contracts";
 import { z } from "zod";
 
 /**

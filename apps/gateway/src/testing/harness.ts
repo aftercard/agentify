@@ -14,7 +14,7 @@
 
 import type { AddressInfo } from "node:net";
 import { type Environment, keyPrefixFor } from "@agentify/commerce-core";
-import type { HandlerAnswer, Order, QuoteResponse } from "@aftercard/coinslot-contracts";
+import type { HandlerAnswer, Order, QuoteResponse } from "@aftercard/agentify-contracts";
 import { decodePaymentRequiredHeader, encodePaymentSignatureHeader } from "@x402/core/http";
 import type { PaymentPayload } from "@x402/core/types";
 import { ScriptedFacilitator } from "../adapters/memory/facilitator.js";

@@ -19,7 +19,7 @@
  * rather than as an error here.
  */
 
-import type { Card, Delivery } from "@aftercard/coinslot-contracts";
+import type { Card, Delivery } from "@aftercard/agentify-contracts";
 
 /** The instant written the way every timestamp on the wire is written. */
 const asTimestamp = (at: number): string => new Date(at).toISOString();

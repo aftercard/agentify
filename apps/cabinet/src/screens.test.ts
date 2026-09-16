@@ -15,12 +15,12 @@
  */
 
 import { SURFACE_MARKER_ATTRIBUTE, SURFACE_WORDS } from "@agentify/commerce-core";
-import type { OrderList, ReceiptList } from "@aftercard/coinslot-contracts";
+import type { OrderList, ReceiptList } from "@aftercard/agentify-contracts";
 import {
   MerchantCardListSchema,
   OrderListSchema,
   ReceiptListSchema,
-} from "@aftercard/coinslot-contracts";
+} from "@aftercard/agentify-contracts";
 import { describe, expect, it } from "vitest";
 import { page } from "./html.js";
 import { ordersScreen, receiptsScreen, type Viewer } from "./screens.js";
