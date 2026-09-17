@@ -110,7 +110,7 @@ build_baseline() {
 
   wp core install \
     --url=https://woo.aftercard.ai \
-    --title='aftercard Digital Gifts — Test Store' \
+    --title='Test Gift Shop' \
     --admin_user=admin \
     --admin_password="$WORDPRESS_ADMIN_PASSWORD" \
     --admin_email=admin@woo.aftercard.ai \
