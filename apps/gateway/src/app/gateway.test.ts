@@ -1,4 +1,4 @@
-import { outcomeFor } from "@agentify/commerce-core";
+import { outcomeFor } from "@agentify/core";
 import type { Card } from "@aftercard/agentify-contracts";
 import {
   CARD_REJECTED,
