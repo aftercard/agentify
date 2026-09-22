@@ -50,7 +50,7 @@
     "@aftercard/agentify-contracts": "workspace:*"
   },
   "devDependencies": {
-    "@agentify/commerce-core": "workspace:*",
+    "@agentify/core": "workspace:*",
     "vitest": "^4.1.11"
   }
 }
