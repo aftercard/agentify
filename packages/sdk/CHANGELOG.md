@@ -1,5 +1,13 @@
 # Merchant SDK release history
 
+## 0.2.7
+
+### Patch Changes
+
+- Updated dependencies [8394f96]
+- Updated dependencies [8550654]
+  - @aftercard/agentify-contracts@0.4.0
+
 ## 0.2.6
 
 ### Patch Changes
