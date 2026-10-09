@@ -58,6 +58,8 @@ export type {
   Refusal,
   RefusalCode,
   SalePrice,
+  Shipment,
+  ShipTo,
 } from "@aftercard/agentify-contracts";
 export {
   CARD_REJECTED,
