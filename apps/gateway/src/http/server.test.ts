@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import type { AddressInfo } from "node:net";
 import { gzipSync } from "node:zlib";
-import { telemetry } from "@agentify/observability";
+import { telemetry } from "@agentify/observability/source";
 import type { Card, MerchantCardList, Receipt } from "@aftercard/agentify-contracts";
 import { API_ROUTES, ERROR_CODES, mountableRoutes } from "@aftercard/agentify-contracts";
 import { decodePaymentRequiredHeader, encodePaymentSignatureHeader } from "@x402/core/http";
