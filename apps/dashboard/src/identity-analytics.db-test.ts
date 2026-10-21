@@ -42,7 +42,7 @@ const SENDING = (() => {
     aftercard_ANALYTICS_ENABLED: "true",
     aftercard_ANALYTICS_SITE_ID: "123",
     aftercard_ANALYTICS_API_KEY: ["qa", "synthetic", "aftercard", "api", "key"].join("-"),
-    aftercard_ANALYTICS_REF_KEY: ["qa", "synthetic", "reference", "key", "0123456789abcdef"].join("-"),
+    aftercard_ANALYTICS_REF_KEY: ["qa", "synthetic", "reference", "key"].join("-").padEnd(40, "x"),
   }).aftercardAnalytics;
   if (target === null) throw new Error("the configuration sends nothing");
   return target;
