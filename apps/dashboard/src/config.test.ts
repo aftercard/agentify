@@ -574,7 +574,7 @@ describe("sending product analytics to aftercard Analytics", () => {
     });
   });
 
-  it("sends from a laptop only to a receiver of its own, never to aftercard", () => {
+  it("sends from a sandbox only to a receiver of its own, never to aftercard", () => {
     expect(
       loadConfig(given({ ...SWITCHED_ON, aftercard_ANALYTICS_URL: `${RECEIVER}/` })).aftercardAnalytics
         ?.endpoint,
@@ -597,7 +597,7 @@ describe("sending product analytics to aftercard Analytics", () => {
     }
   });
 
-  it("refuses a receiver of a laptop's on a deployed channel, which sends only to aftercard", () => {
+  it("refuses a sandbox's receiver on the test and the live channel, which send only to aftercard", () => {
     for (const surface of [ON_TEST, ON_LIVE]) {
       expect(() =>
         loadConfig(given({ ...surface, ...SWITCHED_ON, aftercard_ANALYTICS_URL: RECEIVER })),

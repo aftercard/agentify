@@ -170,7 +170,7 @@ const environmentSchema = z.object({
   aftercard_ANALYTICS_API_KEY: emptyIsAbsent(z.string()),
   aftercard_ANALYTICS_INGEST_TOKEN: emptyIsAbsent(z.string()),
   aftercard_ANALYTICS_REF_KEY: emptyIsAbsent(z.string()),
-  /** A laptop's own receiver; a deployment sends only to aftercard. */
+  /** A sandbox's own receiver; the test and live channels send only to aftercard. */
   aftercard_ANALYTICS_URL: emptyIsAbsent(z.string()),
 });
 
@@ -548,11 +548,11 @@ function aftercardAnalyticsOf(
     } else {
       problems.push(
         `aftercard_ANALYTICS_URL is set on the ${surfaceMode} channel, which sends only to aftercard` +
-          " Analytics itself; the variable is for a laptop's receiver",
+          " Analytics itself; the variable is for a sandbox's receiver",
       );
     }
   } else if (receiver === undefined) {
-    // A laptop sends only to a receiver of its own, so nothing tried on it is
+    // A sandbox sends only to a receiver of its own, so nothing tried on it is
     // ever counted as a real visit.
     problems.push(
       "aftercard_ANALYTICS_ENABLED is true on a sandbox and aftercard_ANALYTICS_URL is not set, so" +
