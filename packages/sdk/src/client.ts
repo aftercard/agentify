@@ -34,12 +34,12 @@ import type {
   OrderCallResponse,
   OrderCloseRequest,
   OrderCloseResponse,
-  OrderWithStatus,
   PublishResult,
   QuoteRequest,
   QuoteResponse,
   Refusal,
 } from "@aftercard/agentify-contracts";
+import type { OrderWithStatus } from "./reading.js";
 import {
   callRoute,
   type Gateway,
