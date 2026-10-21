@@ -2,7 +2,7 @@
 
 Agentify's server sends every product analytics event to aftercard Analytics
 itself, one request per event, as decided in
-[ADR-0041](../decisions/0041-product-analytics-leave-from-the-server.md). aftercard
+[ADR-0042](../decisions/0042-product-analytics-leave-from-the-server.md). aftercard
 Analytics is the analytics team's deployment of Rybbit, an open-source web
 analytics server. Rybbit's public tracking script, the one a website puts in
 its pages, posts each event as JSON to `/api/track`; Agentify's sender posts a
